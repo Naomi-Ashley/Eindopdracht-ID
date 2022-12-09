@@ -53,8 +53,9 @@ span.startgame > a {
 }
 
 .header_wrapper > div > img {
-    width: 15em;;
-    margin: 0 auto;
+    width: 9em;
+    margin-top: 15em;
+    margin-left: -16em;
 }
 
 .controls {
@@ -65,14 +66,127 @@ span.startgame > a {
     margin-top: 1em;
 }
 
-#reset {
+.keyboard {
+    display: flex;
+    justify-content: space-around;
+margin-right: 15em;
+}
+
+
+.reset {
     background-color: #145d94;
     color: black;
     padding: 8px;
     border-radius: 4px;
     border: none;
-    font-size: 2.2em;
+    font-size: 1.5em;
     margin-left: 1.5em;
     cursor: pointer;
 }
 
+
+
+
+.rabbitstateone {
+
+}
+.rabbitstatetwo {
+
+}
+.rabbitstatethree {
+    
+}
+.rabbitstatefour {
+    
+}
+
+.rabbitstatefive {
+    
+}
+
+.rabbitstatesix {
+    
+}
+
+.rabbitstateseven {
+    
+}
+
+.rabbitstateeight {
+    
+}
+
+.rabbitstatenine {
+    
+}
+
+.rabbitstateten {
+    
+}
+
+.rabbitstateelven {
+    
+}
+
+.rabbitstatetwelve {
+    
+}
+
+.rabbitstatethirteen {
+    
+}
+
+.rabbitstatefourteen {
+    
+}
+
+.rabbitstatefifteen {
+    
+}
+
+.turtlestateone {
+
+}
+
+.turtlestatetwo {
+
+}
+.turtlestatethree {
+
+}
+.turtlestatefour {
+
+}
+.turtlestatefive {
+
+}
+.turtlestatesix {
+
+}
+.turtlestateseven {
+
+}
+.turtlestateeight {
+
+}
+.turtlestatenine {
+
+}
+.turtlestateten {
+
+}
+.turtlestateeleven {
+
+}
+.turtlestatetwelve {
+
+}
+.turtlestatethirteen {
+
+}
+.turtlestatefourteen {
+
+}
+.turtlestatefifteen {
+
+}
