@@ -66,13 +66,6 @@ span.startgame > a {
     margin-top: 1em;
 }
 
-.keyboard {
-    display: flex;
-    justify-content: space-around;
-margin-right: 15em;
-}
-
-
 .reset {
     background-color: #145d94;
     color: black;
@@ -84,109 +77,106 @@ margin-right: 15em;
     cursor: pointer;
 }
 
-
-
-
 .rabbitstateone {
-
+margin-left: 5em;
 }
 .rabbitstatetwo {
-
+margin-left: 10em;
 }
 .rabbitstatethree {
-    
+    margin-left: 10em;    
 }
 .rabbitstatefour {
-    
+    margin-left: 10em;  
 }
 
 .rabbitstatefive {
-    
+    margin-left: 10em; 
 }
 
 .rabbitstatesix {
-    
+    margin-left: 10em;
 }
 
 .rabbitstateseven {
-    
+    margin-left: 10em;
 }
 
 .rabbitstateeight {
-    
+    margin-left: 10em;
 }
 
 .rabbitstatenine {
-    
+    margin-left: 10em;
 }
 
 .rabbitstateten {
-    
+    margin-left: 10em;
 }
 
 .rabbitstateelven {
-    
+    margin-left: 10em;
 }
 
 .rabbitstatetwelve {
-    
+    margin-left: 10em;
 }
 
 .rabbitstatethirteen {
-    
+    margin-left: 10em; 
 }
 
 .rabbitstatefourteen {
-    
+    margin-left: 10em; 
 }
 
 .rabbitstatefifteen {
-    
+    margin-left: 10em; 
 }
 
 .turtlestateone {
-
+    margin-left: 10em;
 }
 
 .turtlestatetwo {
-
+    margin-left: 10em;
 }
 .turtlestatethree {
-
+    margin-left: 10em;
 }
 .turtlestatefour {
-
+    margin-left: 10em;
 }
 .turtlestatefive {
-
+    margin-left: 10em;
 }
 .turtlestatesix {
-
+    margin-left: 10em;
 }
 .turtlestateseven {
-
+    margin-left: 10em;
 }
 .turtlestateeight {
-
+    margin-left: 10em;
 }
 .turtlestatenine {
-
+    margin-left: 10em;
 }
 .turtlestateten {
-
+    margin-left: 10em;
 }
 .turtlestateeleven {
-
+    margin-left: 10em;
 }
 .turtlestatetwelve {
-
+    margin-left: 10em;
 }
 .turtlestatethirteen {
-
+    margin-left: 10em;
 }
 .turtlestatefourteen {
-
+    margin-left: 10em;
 }
 .turtlestatefifteen {
-
+    margin-left: 10em;
 }
