@@ -1,13 +1,14 @@
-
-html, * {
+html,
+* {
     margin: 0;
     padding: 0;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 
 div.body_wrapper {
     background-image: url('../IMG/Turtle_and_rabbit.png');
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size: contain;
     background-position: center;
     height: 100vh;
 }
@@ -18,6 +19,11 @@ h1 {
     padding-top: 1.5em;
 }
 
+h2, p {
+    text-align: center;
+    font-size: 1em;
+}
+
 img {
     margin-right: 4px;
     position: relative;
@@ -25,15 +31,35 @@ img {
 }
 
 article img {
-	width: 100%;
-	height: auto;
-  }
+    width: 100%;
+    height: auto;
+}
 
-span.startgame > a {
-    color: #145d94;
-    text-decoration: none;
-    text-align: center;
-    display: block;
+button {
+background-color: #145d94;
+color: white;
+padding: 8px;
+border-radius: 8px;
+border: none;
+font-size: 20px;
+margin-left: 1 em;
+cursor: pointer;
+
+}
+
+.start {
+    width: 8em;
+    height: 3.5em;
+    color: black;
+    font-size: medium;
+    border-color: black;
+    border-radius: 1em;
+    background-color: #145d94;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+
+    /*Hulpmiddel: https://www.youtube.com/watch?v=lwEYrSa4z6k*/
 }
 
 .header_wrapper {
@@ -46,137 +72,106 @@ span.startgame > a {
     flex-direction: column;
 }
 
-.header_wrapper > div {
-    width: 40em;
-    margin: 0 auto;
-    padding-top: 5em;;
-}
-
-.header_wrapper > div > img {
+.header_wrapper>div>img {
     width: 9em;
-    margin-top: 15em;
+    margin-top: 10em;
     margin-left: -16em;
 }
-
-.controls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-}
-
-.reset {
-    background-color: #145d94;
+.a {
+    text-decoration: none;
     color: black;
-    padding: 8px;
-    border-radius: 4px;
-    border: none;
-    font-size: 1.5em;
-    margin-left: 1.5em;
-    cursor: pointer;
 }
 
-.rabbitstateone {
-margin-left: 5em;
-}
-.rabbitstatetwo {
-margin-left: 10em;
-}
-.rabbitstatethree {
-    margin-left: 10em;    
-}
-.rabbitstatefour {
-    margin-left: 10em;  
+.hidden {
+    display: none;
 }
 
-.rabbitstatefive {
-    margin-left: 10em; 
+
+#rabbit-img {
+    transition: margin-left 1s;
+
+}#turtle-img {
+    transition: margin-left 1s;
 }
 
-.rabbitstatesix {
-    margin-left: 10em;
+.turtleClass1 {
+    margin-left: 10em!important;
 }
 
-.rabbitstateseven {
-    margin-left: 10em;
+.turtleClass2 {
+    margin-left: 15em!important;
 }
 
-.rabbitstateeight {
-    margin-left: 10em;
+.turtleClass3 {
+    margin-left: 25em!important;
 }
 
-.rabbitstatenine {
-    margin-left: 10em;
+.turtleClass4 {
+    margin-left: 30em!important;
 }
 
-.rabbitstateten {
-    margin-left: 10em;
+.turtleClass5 {
+    margin-left: 45em!important;
 }
 
-.rabbitstateelven {
-    margin-left: 10em;
+.turtleClass6 {
+    margin-left: 50em!important;
 }
 
-.rabbitstatetwelve {
-    margin-left: 10em;
+.turtleClass7 {
+    margin-left: 65em!important;
 }
 
-.rabbitstatethirteen {
-    margin-left: 10em; 
+.turtleClass8 {
+    margin-left: 70em!important;
 }
 
-.rabbitstatefourteen {
-    margin-left: 10em; 
+.turtleClass9 {
+    margin-left: 80em!important;
 }
 
-.rabbitstatefifteen {
-    margin-left: 10em; 
+.turtleClass10 {
+    margin-left: 85em!important;
 }
 
-.turtlestateone {
-    margin-left: 10em;
+/*Rabbit functie begint nu*/
+
+.rabbitClass1 {
+    margin-left: 10em!important;
 }
 
-.turtlestatetwo {
-    margin-left: 10em;
+.rabbitClass2 {
+    margin-left: 15em!important;
 }
-.turtlestatethree {
-    margin-left: 10em;
+
+.rabbitClass3 {
+    margin-left: 25em!important;
 }
-.turtlestatefour {
-    margin-left: 10em;
+
+.rabbitClass4 {
+    margin-left: 30em!important;
 }
-.turtlestatefive {
-    margin-left: 10em;
+
+.rabbitClass5 {
+    margin-left: 45em!important;
 }
-.turtlestatesix {
-    margin-left: 10em;
+
+.rabbitClass6 {
+    margin-left: 50em!important;
 }
-.turtlestateseven {
-    margin-left: 10em;
+
+.rabbitClass7 {
+    margin-left: 65em!important;
 }
-.turtlestateeight {
-    margin-left: 10em;
+
+.rabbitClass8 {
+    margin-left: 70em!important;
 }
-.turtlestatenine {
-    margin-left: 10em;
+
+.rabbitClass9 {
+    margin-left: 80em!important;
 }
-.turtlestateten {
-    margin-left: 10em;
-}
-.turtlestateeleven {
-    margin-left: 10em;
-}
-.turtlestatetwelve {
-    margin-left: 10em;
-}
-.turtlestatethirteen {
-    margin-left: 10em;
-}
-.turtlestatefourteen {
-    margin-left: 10em;
-}
-.turtlestatefifteen {
-    margin-left: 10em;
+
+.rabbitClass10 {
+    margin-left: 85em!important;
 }
